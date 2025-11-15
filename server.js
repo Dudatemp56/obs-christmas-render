@@ -22,7 +22,7 @@ async function scrapeBalance() {
     });
 
     const page = await browser.newPage();
-    await page.goto("https://pump.fun/profile/toys4kids?tab=balances", {
+    await page.goto("https://pump.fun/profile/toys4kids?tab=coins", {
       waitUntil: "networkidle2",
       timeout: 60000
     });
